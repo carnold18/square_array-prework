@@ -1,3 +1,4 @@
 def square_array(array)
-  array.each { |a| print a*a,","}
+  array.each do |a|
+  a*a
 end
