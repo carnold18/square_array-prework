@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+  array.each {|item| print item^2, ""}
 end
